@@ -110,8 +110,8 @@ body{
 }
 
 
-#page1 h1{
-    font-size:15.8vw;
+#page1 h2{
+    font-size:10.8vw;
     font-family: futura;
     text-transform: uppercase;
     line-height:14vw;
@@ -122,11 +122,14 @@ body{
 }
 
 #video-container{
+    align-items: center;
     height: 100vh;
-    width:100%;
+    width:80%;
     background-color:#344CB7;
     margin-top:1vw;
     position:relative;
+    margin-top:30vh;
+    margin-left:135px ;
 }
 /* @keyframes zoom {
     0%, 100%{
@@ -146,7 +149,7 @@ body{
 } */
 
 #video-container #play{
-    padding:3vw 2.3vw;
+    padding:1vw 1vw;
     background-color: #FFEB00;
     color:#fff;
     font-size:1.3vw;
@@ -191,8 +194,12 @@ body{
 #page2 .elem .dets{
     height:60px;
     width:70%;
+    padding: 3vh;
+    text-align: center;
     position:absolute;
     z-index:9;
+    color:#000957;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #FFEB00;
     border-radius:50px;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
@@ -241,8 +248,9 @@ body{
     min-height:120vh;
     width:100%;
     position: relative;
-    background-color: #f7f7f7;
+    background-color: #000957;
     border-top: 2px solid black;
+    color: #FFEB00;
     margin-top:15rem;
     margin-bottom: 25rem;
 }
@@ -261,7 +269,7 @@ body{
     width:20px;
     border-radius:50%;
     outline: none;
-    border:2px solid black;
+    border:2px solid #FFEB00;
     
 }
 #page4 .btn .btn-slider:hover{
@@ -295,8 +303,8 @@ body{
 #msg-btn button{
     font-family: futura;
     width:20%;
-    background-color:#000 ;
-    color:#f7f7f7;
+    background-color:#FFEB00 ;
+    color:#000957;
     font-size: 1rem;
     border-radius:30px;
     padding:20px;
@@ -319,9 +327,9 @@ body{
     height:100vh;
     width:100%;
     padding:40px;
-    background-color: #f7f7f7;
+    background-color: #FFEB00;
     display: flex;
-
+    color: #000957;
 }
 
 #right-img{
@@ -346,6 +354,7 @@ body{
 #page5 #text p{
     margin-top: 40px;
     width:80%;
+    color: #000957;
 }
 #page5 #text #last-one{
     transition: all linear 0.5;
@@ -407,16 +416,17 @@ body{
     #links{
         padding:7px;
         display: none;
+        color: #FFEB00;
     }
     
     #nav-part2 #links a{
         text-transform:uppercase;
         text-decoration: none;
-        color:#333;
         font-weight: 400;
         font-size:14px;
         margin:0 20px ;
-    
+        color: #FFEB00;
+        
     }
     
     #icons{
@@ -516,7 +526,9 @@ body{
     position: relative;
     padding:15vw;
     display:flex;
+    flex-direction: column;
     align-items: center;
+    color: #FFEB00;
     justify-content: center;
 }
 
